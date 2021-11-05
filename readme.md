@@ -9,3 +9,5 @@ Import Grafana Configuration:
 
 Start Test:
 - `docker-compose run k6 run /tests/exec_ramp_arrive_rate_test.js`
+
+k6 run --vus 10 --duration 30s script.js
